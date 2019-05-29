@@ -5,10 +5,8 @@ Created on Feb 25, 2016
 '''
 
 
-#import decisionTreeV3
-#import family_treeV2
 import sys
-import decisionTreeV6
+import decisionTreeV7
 import family_treeV4
 
 def main(addressFile, nameFile, demoFile, accountFile, outputFile, familyTreeOutput):
