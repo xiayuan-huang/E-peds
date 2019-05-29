@@ -30,6 +30,7 @@ The name file is a csv comma delimited file containing six colums: **study_id**,
 
 
 | study_id | last_name_id   | first_name_id  | middle_name_id   | from_year   | thru_year   |
+| ---------|:--------------:| --------------:| ----------------:|------------:|------------:|
 | 1        | 103775         | 53806          |                  |             |             |
 | 10       | 46972          | 44623          |                  | 2005        | 2011        |
 | 50       | 2696           | 62099          |                  | 1997        | 2007        |
