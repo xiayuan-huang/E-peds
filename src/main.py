@@ -38,7 +38,7 @@ def main(addressFile, nameFile, demoFile, accountFile, outputFile, familyTreeOut
     '''
         predict parent-child relationship
     '''
-    newDT = decisionTreeV6.DT(addressFile, nameFile, demoFile, accountFile)
+    newDT = decisionTreeV7.DT(addressFile, nameFile, demoFile, accountFile)
     newDT.predict()
     newDT.writeToFile(outputFile)
     
