@@ -6,6 +6,7 @@ records to facilitate genetic research"](https://academic.oup.com/bioinformatics
 
 ## Running family pedigree prediction algorithm:
 
+Run main.py with required input files and correct format.
 Our code is compatible with Marshfield Clinic Electronic Health Records system, it requires four de-identified files as inputs:
   1. Address file
   2. Name file
