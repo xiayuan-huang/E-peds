@@ -18,15 +18,7 @@ class DT(object):
         d.readName(nameFile)
         d.readDemo(demoFile)
         d.readAccount(accountFile)
-#        d.readAddress('/Users/xiayuanhuang/documents/project/address_deid.csv')
-#        d.readName('/Users/xiayuanhuang/documents/project/name_deid.csv')
-#        d.readDemo('/Users/xiayuanhuang/documents/project/demo_deid.csv')
-#        d.readAccount('/Users/xiayuanhuang/documents/project/account_deid.csv')
 
-#         d.readAddress('test_address.txt')
-#         d.readName('test_name.txt')
-#         d.readDemo('test_demo.txt')
-#         d.readAccount('test_account.txt')
         self.data = d.data
         self.data2 = d.data2
         self.data3 = d.data3
@@ -59,7 +51,6 @@ class DT(object):
                 id2 = ids[j]
                 if id2 not in self.gender:
                     continue
-                #print(num, ids, id1, id2)
                 for year_range_id1 in self.data[id1][adds]:
                     for year_range_id2 in self.data[id2][adds]:
                         y1 = year_range_id1[0]
