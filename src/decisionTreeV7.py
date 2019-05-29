@@ -4,9 +4,6 @@ Created on Jan 17, 2019
 @author: xiayuanhuang
 '''
 
-'''
-    debugging child's age larger than parents'age
-'''
 
 import readDataV2
 import datetime
