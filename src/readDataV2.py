@@ -425,7 +425,7 @@ class ReadData(object):
                     if not overlap:
                         self.data3[item[0]][info].append(year)
                 else:
-                    self.data3[item[0]][0][info] = [year]
+                    self.data3[item[0]][info] = [year]
             else:
                 #lis = []
                 demo = {}
