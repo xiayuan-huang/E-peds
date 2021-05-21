@@ -28,7 +28,7 @@ The address file is a csv comma delimited file containing eight columns: **study
 
 ### 2. Name file
 
-The name file is a csv comma delimited file containing six colums: **study_id**, **last_name_id**, **first_name_id**, **middle_name_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **last_name_id**, **first_name_id** and **middle_name_id** are the de-identified names. The **from_year** and **thru_year** shows from which year through which year this patient used this name. Note that all missing information will be shown as blank.
+The name file is a csv comma delimited file containing six columns: **study_id**, **last_name_id**, **first_name_id**, **middle_name_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **last_name_id**, **first_name_id** and **middle_name_id** are the de-identified names. The **from_year** and **thru_year** shows from which year through which year this patient used this name. Note that all missing information will be shown as blank.
 
 
 | study_id | last_name_id   | first_name_id  | middle_name_id   | from_year   | thru_year   |
@@ -41,7 +41,7 @@ The name file is a csv comma delimited file containing six colums: **study_id**,
 
 ### 3. Demographic file
 
-The demographic file is a csv comma delimited file containing seven colums: **study_id**, **gender_code**, **birth_year**, **deceased_year**, **PHONE_NUM_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **gender_code** is "F" for female, "M" for male, "U" for unknown and blank for missing value.
+The demographic file is a csv comma delimited file containing seven columns: **study_id**, **gender_code**, **birth_year**, **deceased_year**, **PHONE_NUM_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **gender_code** is "F" for female, "M" for male, "U" for unknown and blank for missing value.
 
 | study_id | gender_code   | birth_year  | deceased_year   | PHONE_NUM_id   | from_year   | thru_year   |
 | -------- |:-------------:| -----------:| ---------------:|---------------:|------------:|------------:|
@@ -52,7 +52,7 @@ The demographic file is a csv comma delimited file containing seven colums: **st
 
 ### 4. Account file
  
-The account file is a csv comma delimited file containing four colums: **study_id**, **ACCT_NUM_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **ACCT_NUM_id** is the de-identified id for account. Note that all missing information will be shown as blank.
+The account file is a csv comma delimited file containing four columns: **study_id**, **ACCT_NUM_id**, **from_year** and **thru_year**. The **study_id** is the de-identified id for a single patient. The **ACCT_NUM_id** is the de-identified id for account. Note that all missing information will be shown as blank.
 
 | study_id | ACCT_NUM_id   | from_year   | thru_year   |
 | -------- |--------------:|------------:|------------:|
